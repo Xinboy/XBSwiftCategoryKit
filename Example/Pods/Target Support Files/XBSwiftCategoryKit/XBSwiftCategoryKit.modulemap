@@ -1,0 +1,6 @@
+framework module XBSwiftCategoryKit {
+  umbrella header "XBSwiftCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

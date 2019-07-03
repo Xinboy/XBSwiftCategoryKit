@@ -1,0 +1,16 @@
+PODS:
+  - XBSwiftCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - XBSwiftCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  XBSwiftCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XBSwiftCategoryKit: f965d39db113d63b56d10a9e1855fffd02fe1b64
+
+PODFILE CHECKSUM: 79ed937203f2b8f0351acb5fb2f0f7916c129990
+
+COCOAPODS: 1.5.3

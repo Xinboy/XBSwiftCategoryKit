@@ -1,0 +1,22 @@
+{
+  "name": "XBSwiftCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of XBSwiftCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Xinboy/XBSwiftCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Xinboy": "xinbo.hong@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Xinboy/XBSwiftCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XBSwiftCategoryKit/Classes/**/*"
+}
