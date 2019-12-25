@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
+import Pods_XBSwiftCategoryKit_Example
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let sdas = "123"
     }
 
     override func didReceiveMemoryWarning() {
