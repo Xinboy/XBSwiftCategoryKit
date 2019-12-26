@@ -9,7 +9,7 @@ import Foundation
 
 extension NSNumber {
     
-    //根据最大位数digit，四舍五入
+    // 根据最大位数digit，四舍五入
     func round(digit: Int) -> NSNumber {
         let formatter = NumberFormatter.init()
         formatter.roundingMode = .halfUp
@@ -19,6 +19,7 @@ extension NSNumber {
         return NSNumber.init(value: (formatter.string(from: self)?.toNumber().doubleValue)!)
     }
     
+    /// 向上取整
     func ceil(digit: Int) -> NSNumber {
         let formatter = NumberFormatter.init()
         formatter.roundingMode = .ceiling
@@ -27,6 +28,7 @@ extension NSNumber {
         return NSNumber.init(value: (formatter.string(from: self)?.toNumber().doubleValue)!)
     }
     
+    /// 向下取整
     func floor(digit: Int) -> NSNumber {
         let formatter = NumberFormatter.init()
         formatter.roundingMode = .floor
@@ -35,5 +37,5 @@ extension NSNumber {
         return NSNumber.init(value: (formatter.string(from: self)?.toNumber().doubleValue)!)
     }
 
-
 }
+

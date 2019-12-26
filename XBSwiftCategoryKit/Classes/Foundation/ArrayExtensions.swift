@@ -20,7 +20,7 @@ public func ==<T: Equatable>(lhs: [T]?, rhs: [T]?) -> Bool {
 }
 
 
-extension Array {
+extension Array where Element: Hashable {
     
     /// 根据index获取元素
     func get(at index: Int) -> Element? {
@@ -45,8 +45,8 @@ extension Array {
     /// 获取指定元素首个index
     func index(of obj: Element) -> Int {
         
-        let index = self.firstIndex { (str) -> Bool in
-            if (str as AnyObject).isEqual(obj) {
+        let index = self.firstIndex { (item) -> Bool in
+            if (item as AnyObject).isEqual(obj) {
                 return true
             }
             return false
@@ -56,5 +56,14 @@ extension Array {
             return -1
         }
         return index!
+    }
+    
+    /// 没有重复数据的数组
+    var unique:[Element] {
+        var uniq = Set<Element>()
+        uniq.reserveCapacity(self.count)
+        return self.filter {
+            return uniq.insert($0).inserted
+        }
     }
 }

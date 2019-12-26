@@ -37,6 +37,7 @@
 		7219DC3023B20DB2001349DB /* CALayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219DC2F23B20DB2001349DB /* CALayerExtensions.swift */; };
 		723E740922E8716B00E2879C /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E740822E8716B00E2879C /* UIColorExtensions.swift */; };
 		7268DB91238F6C6600804DC8 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268DB90238F6C6600804DC8 /* UIImageExtension.swift */; };
+		72774A4423B36BF300C6F1D8 /* NSDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72774A4323B36BF300C6F1D8 /* NSDictionaryExtension.swift */; };
 		72C2B5D60A24B4B663C8994276A962B6 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */; };
 		77A618FE4FF299682F776C974300EBA1 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */; };
 		783399CA4FB4C17D6BA5F6A9C6AA8A01 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEEA9F64F09D9E6DD5B3253760007E /* NSObjectExtensions.swift */; };
@@ -148,6 +149,7 @@
 		7219DC2F23B20DB2001349DB /* CALayerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerExtensions.swift; sourceTree = "<group>"; };
 		723E740822E8716B00E2879C /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		7268DB90238F6C6600804DC8 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		72774A4323B36BF300C6F1D8 /* NSDictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDictionaryExtension.swift; sourceTree = "<group>"; };
 		730247CF0AB93928F6962690D8D61A32 /* DateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		737445DB6AC27EF1E48D204A8350F57B /* NSNumberExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSNumberExtensions.swift; sourceTree = "<group>"; };
 		737AE59989E89243B784D2F36C94EC0A /* CGRectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGRectExtensions.swift; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 				737445DB6AC27EF1E48D204A8350F57B /* NSNumberExtensions.swift */,
 				3FCEEA9F64F09D9E6DD5B3253760007E /* NSObjectExtensions.swift */,
 				4B943CE68301272D936816CBC8975FAF /* StringExtension.swift */,
+				72774A4323B36BF300C6F1D8 /* NSDictionaryExtension.swift */,
 			);
 			name = Foundation;
 			path = XBSwiftCategoryKit/Classes/Foundation;
@@ -725,6 +728,7 @@
 			files = (
 				00AE0F61CBFA9DE2A86CD8B07F8D8388 /* Pods-XBSwiftCategoryKit_Example-dummy.m in Sources */,
 				7219DC3023B20DB2001349DB /* CALayerExtensions.swift in Sources */,
+				72774A4423B36BF300C6F1D8 /* NSDictionaryExtension.swift in Sources */,
 				7210A0C1239F885F009C1905 /* Storage.swift in Sources */,
 				7268DB91238F6C6600804DC8 /* UIImageExtension.swift in Sources */,
 				7210A0BF239F8853009C1905 /* UserDefault.swift in Sources */,
